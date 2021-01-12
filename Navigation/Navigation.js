@@ -18,7 +18,7 @@ const StackNavigator = createStackNavigator({
   Home:{
     screen: Home,
     navigationOptions: {
-      title: "Home"
+      headerShown: null
 
     }
 
@@ -47,62 +47,64 @@ const StackNavigator = createStackNavigator({
 Compte:{
   screen: Compte,
   navigationOptions: {
-    title: "Compte"
+    headerShown: null
 
   }
 },
 AddPet:{
   screen: AddPet,
   navigationOptions: {
-    title: "AddPet"
+    headerShown: null
 
   }
 },
   Animal2:{
     screen: Animal2,
     navigationOptions: {
-      title: "Animal2"
+      headerShown: null
+
     }
 
     },
     Animal3:{
       screen: Animal3,
       navigationOptions: {
-        title: "Animal3"
+        headerShown: null
+
       }
       },
     Felix: {
         screen: Felix,
         navigationOptions: {
-          title: "Felix"
+          headerShown: null
 
         }
       },
       FelixProg: {
           screen: FelixProg,
           navigationOptions: {
-            title: "FelixProg"
+            headerShown: null
 
           }
         },
       Planning: {
           screen: Planning,
           navigationOptions: {
-            title: "Planning"
+            headerShown: null
 
           }
         },
         Planning2: {
             screen: Planning2,
             navigationOptions: {
-              title: "Planning2"
+              headerShown: null
 
             }
           },
         User: {
               screen: User,
               navigationOptions: {
-                title: "User"
+                headerShown: null
 
               }
             }
