@@ -4,7 +4,7 @@ import React from 'react'
 import { Text,StyleSheet, View, TextInput, Button,Image } from 'react-native'
 
 import {FontAwesome,AntDesign,SimpleLineIcons,Feather,Foundation} from '@expo/vector-icons';
-
+// permet de gérer le formulaire d'ajout d'un animal
 class AddPet extends React.Component {
 
   constructor(props){
@@ -37,6 +37,7 @@ class AddPet extends React.Component {
 
     render(){
       return (
+        //gérer le contenu des vues
         <View style={styles.container}>
 
             <View style={styles.containrow}>
@@ -133,7 +134,7 @@ class AddPet extends React.Component {
       )
     }
 }
-
+// gérer les styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,

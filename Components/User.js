@@ -19,7 +19,7 @@ constructor(props){
 
   }
 }
-
+//affichage sur la console des elements rentrés dans le formulaire
 _handlePress() {
    console.log(this.state.pseudo);
    console.log(this.state.id);

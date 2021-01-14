@@ -21,7 +21,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-
+//gérer la navigationn 
 <Navigation/>
 //<Compte/>
 //<Felix/>

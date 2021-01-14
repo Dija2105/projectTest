@@ -14,6 +14,8 @@ import Planning from '../Components/Planning';
 import Planning2 from '../Components/Planning2';
 import FelixProg from '../Components/FelixProg.js';
 import User from '../Components/User.js';
+
+// on crée un pile de navigation et on ajoute 
 const StackNavigator = createStackNavigator({
   Home:{
     screen: Home,
