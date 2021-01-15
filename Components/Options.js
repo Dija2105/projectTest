@@ -14,7 +14,7 @@ class Options extends React.Component {
         <View style={styles.containrow}>
 
           <AntDesign name="wifi" size={24} color="black"  />
-
+// gestion de la navigation par appui sur le bouton 
         <FontAwesome  onPress={()=> this.props.navigation.navigate("Animal")} name="paw" size={24} color="black" style={styles.containAnimal}/>
           <Text style={{fontWeight: 'bold',marginBottom:-300,height:50, width:150, paddingLeft:50}}>  Animaux </Text>
           <Foundation name="list" size={24} color="green" style={{ paddingLeft:40}}/>

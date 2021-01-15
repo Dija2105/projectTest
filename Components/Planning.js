@@ -55,7 +55,7 @@ class Planning extends React.Component {
 
                   </View>
 
-
+// gestion de la navigation par appui sur le bouton
                           <View style={styles.btnBack}>
                             <Button
                             title="Back"
